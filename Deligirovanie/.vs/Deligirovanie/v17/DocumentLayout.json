@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|c:\\users\\ds\\desktop\\\u0431\u0433\u0443\u0438\u0440\\\u043F\u0443\u0438\u0440\u0447\\deligirovanie\\deligirovanie\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|c:\\users\\ds\\desktop\\\u0431\u0433\u0443\u0438\u0440\\\u043F\u0443\u0438\u0440\u0447\\deligirovanie\\deligirovanie\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|c:\\users\\ds\\desktop\\\u0431\u0433\u0443\u0438\u0440\\\u043F\u0443\u0438\u0440\u0447\\deligirovanie\\deligirovanie\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|c:\\users\\ds\\desktop\\\u0431\u0433\u0443\u0438\u0440\\\u043F\u0443\u0438\u0440\u0447\\deligirovanie\\deligirovanie\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|c:\\users\\ds\\desktop\\\u0431\u0433\u0443\u0438\u0440\\\u043F\u0443\u0438\u0440\u0447\\deligirovanie\\deligirovanie\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C06F4D5-A1C2-4066-BC7D-38C7EFE73EB0}|Deligirovanie.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:46:13.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:42:51.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:32:59.957Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwGEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:14:14.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:12:27.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\DS\\Desktop\\\u0411\u0413\u0423\u0418\u0420\\\u041F\u0423\u0438\u0420\u0427\\Deligirovanie\\Deligirovanie\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:12:06.361Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

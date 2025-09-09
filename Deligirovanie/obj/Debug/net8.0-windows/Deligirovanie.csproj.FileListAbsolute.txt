@@ -1,0 +1,16 @@
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\bin\Debug\net8.0-windows\Deligirovanie.exe
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\bin\Debug\net8.0-windows\Deligirovanie.deps.json
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\bin\Debug\net8.0-windows\Deligirovanie.runtimeconfig.json
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\bin\Debug\net8.0-windows\Deligirovanie.dll
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\bin\Debug\net8.0-windows\Deligirovanie.pdb
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.Form1.resources
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.csproj.GenerateResource.cache
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.AssemblyInfoInputs.cache
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.AssemblyInfo.cs
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.csproj.CoreCompileInputs.cache
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.dll
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\refint\Deligirovanie.dll
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.pdb
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\Deligirovanie.genruntimeconfig.cache
+C:\Users\DS\Desktop\БГУИР\ПУиРЧ\Deligirovanie\Deligirovanie\obj\Debug\net8.0-windows\ref\Deligirovanie.dll
