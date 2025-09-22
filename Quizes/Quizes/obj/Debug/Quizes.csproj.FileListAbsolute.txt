@@ -1,0 +1,11 @@
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\bin\Debug\Quizes.exe.config
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\bin\Debug\Quizes.exe
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\bin\Debug\Quizes.pdb
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.csproj.AssemblyReference.cache
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.MainForm.resources
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.Properties.Resources.resources
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.TestForm.resources
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.csproj.GenerateResource.cache
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.csproj.CoreCompileInputs.cache
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.exe
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.pdb
