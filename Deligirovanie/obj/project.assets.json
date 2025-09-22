@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DS\\.nuget\\packages\\": {}
+    "C:\\Users\\genys\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DS\\Desktop\\БГУИР\\ПУиРЧ\\Deligirovanie\\Deligirovanie\\Deligirovanie.csproj",
+      "projectUniqueName": "D:\\Документы\\Уник\\ПУиРЧР\\PUiRCHR\\Deligirovanie\\Deligirovanie.csproj",
       "projectName": "Deligirovanie",
-      "projectPath": "C:\\Users\\DS\\Desktop\\БГУИР\\ПУиРЧ\\Deligirovanie\\Deligirovanie\\Deligirovanie.csproj",
-      "packagesPath": "C:\\Users\\DS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DS\\Desktop\\БГУИР\\ПУиРЧ\\Deligirovanie\\Deligirovanie\\obj\\",
+      "projectPath": "D:\\Документы\\Уник\\ПУиРЧР\\PUiRCHR\\Deligirovanie\\Deligirovanie.csproj",
+      "packagesPath": "C:\\Users\\genys\\.nuget\\packages\\",
+      "outputPath": "D:\\Документы\\Уник\\ПУиРЧР\\PUiRCHR\\Deligirovanie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\genys\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
