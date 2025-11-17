@@ -18,6 +18,8 @@ namespace Quizes2.Controls
 
         public Cube3DControl()
         {
+            
+
             InitializeComponent();
         }
 
@@ -25,23 +27,80 @@ namespace Quizes2.Controls
 
         private Material CreateTextBrush(string text)
         {
-            var tb = new TextBlock
+            const int size = 256;      // Размер текстуры (размер грани)
+            int fontSize = 32;         // Начальный шрифт (потом уменьшим, если нужно)
+
+            TextBlock tb = new TextBlock
             {
                 Text = text,
-                FontSize = 28,
                 FontWeight = FontWeights.Bold,
                 Foreground = Brushes.Black,
-                Background = Brushes.White,
-                TextWrapping = TextWrapping.Wrap
+                Background = Brushes.Transparent,
+                TextWrapping = TextWrapping.Wrap,
+                TextAlignment = TextAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Center
             };
 
-            var brush = new VisualBrush(tb);
-            return new DiffuseMaterial(brush);
+            // Контейнер
+
+
+            Grid grid = new Grid
+            {
+                Width = size,
+                Height = size,
+                Background = Brushes.Transparent  // фон грани ПРОЗРАЧНЫЙ
+            };
+
+            Border background = new Border
+            {
+                Background = new SolidColorBrush(Color.FromRgb(180, 220, 255)), // голубой фон только под текст
+                CornerRadius = new CornerRadius(10),
+                Padding = new Thickness(10),
+                HorizontalAlignment = HorizontalAlignment.Stretch,
+                VerticalAlignment = VerticalAlignment.Stretch
+            };
+
+            
+
+            background.Child = tb;
+            grid.Children.Add(background);
+
+
+
+            // Автомасштабирование текста
+            Size available = new Size(size - 20, size - 20); // отступы по краям
+            tb.Margin = new Thickness(10);
+
+            while (fontSize > 6)
+            {
+                tb.FontSize = fontSize;
+
+                // Измеряем размер текста
+                tb.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
+                Size desired = tb.DesiredSize;
+
+                if (desired.Width <= available.Width && desired.Height <= available.Height)
+                    break; // Помещается – отлично!
+
+                fontSize -= 2; // Иначе уменьшаем шрифт
+            }
+
+            return new DiffuseMaterial(new VisualBrush(grid));
         }
+
 
         private Material CreateImageBrush(ImageSource img)
         {
+            Background = Brushes.SkyBlue;
             return new DiffuseMaterial(new ImageBrush(img));
+        }
+
+        private Material CreateBlueMaterial()
+        {
+            return new DiffuseMaterial(
+                new SolidColorBrush(Color.FromRgb(180, 220, 255)) // приятный голубой
+            );
         }
 
         private GeometryModel3D CreateFace(Point3D p0, Point3D p1, Point3D p2, Point3D p3, Material material)
@@ -82,10 +141,12 @@ namespace Quizes2.Controls
                 new Point3D(s, s, -s), new Point3D(s, s, s),
                 CreateTextBrush(ScoreText)));
 
-            // BACK  (ResultText)
+            // BACK (ResultText)
             CubeModel.Children.Add(CreateFace(
-                new Point3D(-s, -s, -s), new Point3D(s, -s, -s),
-                new Point3D(s, s, -s), new Point3D(-s, s, -s),
+                new Point3D(s, -s, -s),     // p0
+                new Point3D(-s, -s, -s),    // p1
+                new Point3D(-s, s, -s),     // p2
+                new Point3D(s, s, -s),      // p3
                 CreateTextBrush(ResultText)));
 
             // LEFT  (Image)
@@ -94,6 +155,21 @@ namespace Quizes2.Controls
                     new Point3D(-s, -s, -s), new Point3D(-s, -s, s),
                     new Point3D(-s, s, s), new Point3D(-s, s, -s),
                     CreateImageBrush(ImageSide)));
+
+            CubeModel.Children.Add(CreateFace(
+                new Point3D(-s, -s, s),   // p0
+                new Point3D(s, -s, s),   // p1
+                new Point3D(s, -s, -s),   // p2
+                new Point3D(-s, -s, -s),   // p3
+                CreateBlueMaterial()));
+
+            CubeModel.Children.Add(CreateFace(
+                new Point3D(-s, s, s),   // p0
+                new Point3D(s, s, s),   // p1
+                new Point3D(s, s, -s),   // p2
+                new Point3D(-s, s, -s),   // p3
+                CreateBlueMaterial()));
+
         }
 
         // ---------- ВРАЩЕНИЕ ----------
@@ -118,10 +194,10 @@ namespace Quizes2.Controls
 
             var p = e.GetPosition(this);
             double dx = p.X - last.X;
-            double dy = p.Y - last.Y;
+            
 
             RotY.Angle += dx * 0.5;
-            RotX.Angle -= dy * 0.5;
+            
 
             last = p;
         }

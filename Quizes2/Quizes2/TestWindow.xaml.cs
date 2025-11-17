@@ -117,7 +117,7 @@ namespace Quizes2
                 }
             }
 
-            new ResultWindow("Поздравляем с прохождением!", totalScore, resultText)
+            new ResultWindow(this.Title, "Поздравляем с прохождением!", totalScore, resultText)
                 .ShowDialog();
 
             Close();

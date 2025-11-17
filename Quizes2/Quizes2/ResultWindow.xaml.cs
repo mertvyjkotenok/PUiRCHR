@@ -6,13 +6,13 @@ namespace Quizes2
 {
     public partial class ResultWindow : Window
     {
-        public ResultWindow(string title, int score, string result)
+        public ResultWindow(string title, string poz, int score, string result)
         {
             InitializeComponent();
 
-            TitleText.Text = title;
-            ScoreText.Text = $"Баллы: {score}";
-            ResultText.Text = result;
+            TitleText.Text = "Спасибо за прохождение теста!";
+            //ScoreText.Text = $"Баллы: {score}";
+            //ResultText.Text = result;
 
             // передаём значения в куб
             Cube3.Text1 = title;

@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:ctrl="clr-namespace:Quizes2.Controls"
         mc:Ignorable="d"
-        Title="Результат" Width="600" Height="500">
+        Title="Результат" Width="707" Height="514" >
 
-    <Grid>
+    <Grid Margin="0,0,0,-6" Background="Transparent">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -31,9 +31,7 @@
 
         </StackPanel>
         <ctrl:Cube3DControl x:Name="Cube3"
-                            Grid.Column="1"
-                            HorizontalAlignment="Stretch"
-                            VerticalAlignment="Stretch"/>
+                            Grid.Column="1" Margin="12,52,12,20" Background="Transparent"/>
 
         <!-- КУБ -->
 
