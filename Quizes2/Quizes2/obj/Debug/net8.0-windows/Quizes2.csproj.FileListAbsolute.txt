@@ -25,3 +25,4 @@ D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes2\Quizes2\obj\Debug\ne
 D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes2\Quizes2\obj\Debug\net8.0-windows\Quizes2.pdb
 D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes2\Quizes2\obj\Debug\net8.0-windows\Quizes2.genruntimeconfig.cache
 D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes2\Quizes2\obj\Debug\net8.0-windows\ref\Quizes2.dll
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes2\Quizes2\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
