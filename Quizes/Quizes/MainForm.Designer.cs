@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.SuspendLayout();
             // 
             // MainForm
             // 
-            this.ClientSize = new System.Drawing.Size(1049, 560);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(484, 361);
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);

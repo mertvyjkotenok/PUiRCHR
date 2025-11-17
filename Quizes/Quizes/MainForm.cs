@@ -5,9 +5,12 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HelixToolkit.Wpf;
+
 
 namespace Quizes
 {
@@ -28,12 +31,22 @@ namespace Quizes
             this.Size = new Size(500, 400);
             this.StartPosition = FormStartPosition.CenterScreen;
 
+            var textLabel = new Label()
+            {
+                Text = "Тестики",
+                Location = new Point(100, 40),
+                Size = new Size(300, 70),
+                Font = new Font("Philosopher", 24),
+                BackColor = Color.Transparent,
+                TextAlign = ContentAlignment.MiddleCenter,
+            };
+
             var selectFileButton = new Button()
             {
                 Text = "Выбрать файл теста",
                 Size = new Size(200, 50),
-                Location = new Point(150, 50),
-                Font = new Font("Arial", 12)
+                Location = new Point(150, 120),
+                Font = new Font("Philosopher", 12)
             };
             selectFileButton.Click += SelectFileButton_Click;
 
@@ -41,8 +54,8 @@ namespace Quizes
             {
                 Text = "Начать тест",
                 Size = new Size(200, 50),
-                Location = new Point(150, 120),
-                Font = new Font("Arial", 12),
+                Location = new Point(150, 190),
+                Font = new Font("Philosopher", 12),
                 Enabled = false
             };
             startTestButton.Click += StartTestButton_Click;
@@ -50,12 +63,14 @@ namespace Quizes
             var fileLabel = new Label()
             {
                 Text = "Файл не выбран",
-                Location = new Point(150, 200),
-                Size = new Size(300, 30),
-                Font = new Font("Arial", 10)
+                Location = new Point(100, 240),
+                Size = new Size(300, 60),
+                Font = new Font("Philosopher", 10),
+                BackColor = Color.Transparent,
+                TextAlign = ContentAlignment.MiddleCenter,
             };
 
-            this.Controls.AddRange(new Control[] { selectFileButton, startTestButton, fileLabel });
+            this.Controls.AddRange(new Control[] { selectFileButton, startTestButton, fileLabel, textLabel });
 
             // Сохраняем ссылки для обновления
             this.startTestButton = startTestButton;
@@ -182,4 +197,7 @@ namespace Quizes
 
         }
     }
+
 }
+
+ 

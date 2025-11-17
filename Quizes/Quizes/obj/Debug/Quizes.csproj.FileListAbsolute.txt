@@ -9,3 +9,6 @@ D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quiz
 D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.csproj.CoreCompileInputs.cache
 D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.exe
 D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.pdb
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\bin\Debug\HelixToolkit.Wpf.dll
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\bin\Debug\HelixToolkit.Wpf.xml
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes\Quizes\obj\Debug\Quizes.csproj.CopyComplete
