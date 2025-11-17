@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="YourNamespace.Pyramid3DControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:hx="http://helix-toolkit.org/wpf">
+    <Grid>
+        <hx:HelixViewport3D x:Name="viewport" 
+                            ShowFrameRate="False"
+                            ShowCoordinateSystem="False"
+                            ZoomExtentsWhenLoaded="True">
+            <hx:DefaultLights/>
+        </hx:HelixViewport3D>
+    </Grid>
+</UserControl>

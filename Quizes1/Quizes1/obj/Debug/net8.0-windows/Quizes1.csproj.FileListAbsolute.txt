@@ -1,0 +1,8 @@
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.MainForm.resources
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.TestForm.resources
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.csproj.GenerateResource.cache
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.AssemblyInfoInputs.cache
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.AssemblyInfo.cs
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.csproj.CoreCompileInputs.cache
+D:\Документы\Уник\ПУиРЧР\PUiRCHR\Quizes1\Quizes1\obj\Debug\net8.0-windows\Quizes1.sourcelink.json
