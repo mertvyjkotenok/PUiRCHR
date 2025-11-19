@@ -108,16 +108,24 @@ namespace Quizes2
         {
             string resultText = "Результат не определён";
 
+            int maxscore = 0;
+
             foreach (var r in testData.Results)
             {
                 if (totalScore >= r.MinScore && totalScore <= r.MaxScore)
                 {
                     resultText = r.Text;
+                    maxscore = r.MaxScore;
                     break;
                 }
+
+                
             }
 
-            new ResultWindow("Поздравляем с прохождением!", totalScore, resultText)
+            
+            
+
+            new ResultWindow(this.Title, "Поздравляем с прохождением!", totalScore, maxscore, resultText)
                 .ShowDialog();
 
             Close();
