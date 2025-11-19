@@ -6,7 +6,7 @@ namespace Quizes2
 {
     public partial class ResultWindow : Window
     {
-        public ResultWindow(string title, string poz, int score, string result)
+        public ResultWindow(string title, string poz, int score, int maxscore, string result)
         {
             InitializeComponent();
 
@@ -16,7 +16,7 @@ namespace Quizes2
 
             // передаём значения в куб
             Cube3.Text1 = title;
-            Cube3.ScoreText = $"Баллы: {score}";
+            Cube3.ScoreText = $"Баллы: {score} из {maxscore}";
             Cube3.ResultText = result;
             Cube3.ImageSide = new BitmapImage(new Uri("Assets/123.png", UriKind.Relative));
 

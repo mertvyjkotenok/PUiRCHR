@@ -31,7 +31,7 @@
 
         </StackPanel>
         <ctrl:Cube3DControl x:Name="Cube3"
-                            Grid.Column="1" Margin="12,52,12,20" Background="Transparent"/>
+                            Grid.Column="1" Margin="12,44,12,20" Background="Transparent"/>
 
         <!-- КУБ -->
 

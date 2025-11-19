@@ -28,7 +28,7 @@ namespace Quizes2.Controls
         private Material CreateTextBrush(string text)
         {
             const int size = 256;      // Размер текстуры (размер грани)
-            int fontSize = 32;         // Начальный шрифт (потом уменьшим, если нужно)
+            int fontSize = 42;         // Начальный шрифт (потом уменьшим, если нужно)
 
             TextBlock tb = new TextBlock
             {
@@ -55,7 +55,7 @@ namespace Quizes2.Controls
             Border background = new Border
             {
                 Background = new SolidColorBrush(Color.FromRgb(180, 220, 255)), // голубой фон только под текст
-                CornerRadius = new CornerRadius(10),
+                CornerRadius = new CornerRadius(0),
                 Padding = new Thickness(10),
                 HorizontalAlignment = HorizontalAlignment.Stretch,
                 VerticalAlignment = VerticalAlignment.Stretch
@@ -69,10 +69,10 @@ namespace Quizes2.Controls
 
 
             // Автомасштабирование текста
-            Size available = new Size(size - 20, size - 20); // отступы по краям
+            Size available = new Size(size - 10, size - 10); // отступы по краям
             tb.Margin = new Thickness(10);
 
-            while (fontSize > 6)
+            while (fontSize > 12)
             {
                 tb.FontSize = fontSize;
 
@@ -83,7 +83,7 @@ namespace Quizes2.Controls
                 if (desired.Width <= available.Width && desired.Height <= available.Height)
                     break; // Помещается – отлично!
 
-                fontSize -= 2; // Иначе уменьшаем шрифт
+                fontSize -= 1; // Иначе уменьшаем шрифт
             }
 
             return new DiffuseMaterial(new VisualBrush(grid));
@@ -92,7 +92,7 @@ namespace Quizes2.Controls
 
         private Material CreateImageBrush(ImageSource img)
         {
-            Background = Brushes.SkyBlue;
+            //Background = Brushes.SkyBlue;
             return new DiffuseMaterial(new ImageBrush(img));
         }
 
@@ -194,9 +194,11 @@ namespace Quizes2.Controls
 
             var p = e.GetPosition(this);
             double dx = p.X - last.X;
+            double dy = p.Y - last.Y;
             
 
             RotY.Angle += dx * 0.5;
+            RotY.Angle += dy * 0.5;
             
 
             last = p;
@@ -205,10 +207,10 @@ namespace Quizes2.Controls
         private void Viewport_MouseWheel(object sender, MouseWheelEventArgs e)
         {
             double z = Cam.Position.Z - e.Delta * 0.001;
-            if (z < 1) z = 1;
+            if (z < 1.7) z = 1.7;
             if (z > 20) z = 20;
 
-            Cam.Position = new Point3D(0, 0, z);
+            Cam.Position = new Point3D(0, 0.5, z);
         }
     }
 }
